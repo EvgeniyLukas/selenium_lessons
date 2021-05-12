@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebElement for test</title>
+</head>
+<body>
+<header>
+    <h1>Text header</h1>
+    <h2 hidden>Description</h2>
+</header>
+<nav>
+    <ul>
+        <li><a href="https://google.com">Google</a></li>
+        <script>
+            let a = document.querySelector("a");
+            a.addEventListener("click", function (e){
+                //e.preventDefault();
+            });
+        </script>
+    </ul>
+</nav>
+
+
+<table border="1">
+    <tr>
+        <td>#</td>
+        <td>name</td>
+        <td>Description</td>
+        <td>Price</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Хлеб</td>
+        <td>Description</td>
+        <td>Price</td>
+    </tr>
+</table>
+
+
+
+<main>
+    <article>
+    <header>
+        <h2>Header from article</h2>
+    </header>
+        <div>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li>
+                    <ol>
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link1</a></li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </article>
+</main>
+
+</body>
+</html>
